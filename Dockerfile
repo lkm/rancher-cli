@@ -12,5 +12,4 @@ RUN \
   rm -rf rancher* && \
   chmod +x /usr/bin/rancher
 
-ENTRYPOINT ["rancher"]
-CMD ["help"]
+CMD ["/bin/sh"]
