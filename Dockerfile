@@ -1,8 +1,8 @@
 FROM gliderlabs/alpine:3.4
 
-ENV RANCHER_CLI_VERSION 0.1.0-rc3
+ENV RANCHER_CLI_VERSION 0.4.0
 
-ADD https://github.com/rancher/cli/releases/download/v0.1.0-rc3/rancher-linux-amd64-v${RANCHER_CLI_VERSION}.tar.gz /tmp/
+ADD https://github.com/rancher/cli/releases/download/v${RANCHER_CLI_VERSION}/rancher-linux-amd64-v${RANCHER_CLI_VERSION}.tar.gz /tmp/
 
 RUN \
   apk --update add ca-certificates && \
