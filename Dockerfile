@@ -1,6 +1,6 @@
 FROM gliderlabs/alpine:3.4
 
-ENV RANCHER_CLI_VERSION 0.4.0
+ENV RANCHER_CLI_VERSION 0.4.1
 
 ADD https://github.com/rancher/cli/releases/download/v${RANCHER_CLI_VERSION}/rancher-linux-amd64-v${RANCHER_CLI_VERSION}.tar.gz /tmp/
 
